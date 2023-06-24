@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fontitulo: 'Ysabeau SC', sans-serif;
+    --fontparagrafo: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #048ABF, #0477BF);
+}
+
+header h1 {
+    font-family: var(--fontitulo);
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+nav {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+nav > a {
+    font-family: var(--fontparagrafo);
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline black;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+article  h1 {
+    font-family: var(--fontitulo);
+    font-size: 2em;
+    text-align: center;
+}
+
+article > p {
+    text-indent: 20px;
+    line-height: 1.5em;
+    font-family: var(--fontparagrafo);
+    padding-left: 10px;
+}
+
+article h2 {
+    font-family: var(--fontitulo);
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+section {
+    height: 99vh;
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section p {
+    font-family: var(--fontparagrafo);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.511);
+    width: 500px;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 2em;
+    color: white;
+}
+
+#img01 {
+    background-image: url(../Imagens/peyto-lake.jpg);
+}
+
+#img02 {
+    background-image: url(../Imagens/maldivas.jpg);
+}
+
+#img03 {
+    background-image: url(../Imagens/costa-jurassica.jpg);
+}
+
+#img04 {
+    background-image: url(../Imagens/parque-nacional-yosemite.jpg);
+}
+
+#img05 {
+    background-image: url(../Imagens/lago-tekapo.jpg);
+}
+
+#img06 {
+    background-image: url(../Imagens/niagara.jpg);
+}
+
+#img07 {
+    background-image: url(../Imagens/snowdonia.jpg);
+}
+
+#img08 {
+    background-image: url(../Imagens/puerto-princesa.jpg);
+}
+
+#img09 {
+    background-image: url(../Imagens/catedral-marmore.jpg);
+}
+
+#img010 {
+    background-image: url(../Imagens/el-yunque.jpg);
+}
+
+footer {
+    background-color: #0477BF;
+    padding-top: 5px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
