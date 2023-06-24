@@ -75,7 +75,7 @@ section {
 
 section p {
     font-family: var(--fontparagrafo);
-    font-size: 20px;
+    font-size: 16px;
     background-color: rgba(0, 0, 0, 0.511);
     width: 90vw;
     padding-left: 10px;
